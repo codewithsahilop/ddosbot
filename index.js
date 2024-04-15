@@ -4,7 +4,7 @@ const { exec } = require('child_process');
 // Add your telegram bot api
 const token = '6959619997:AAGWIBICrM7iTwb9-YjcQmogwr_6ctVMVog';
 
-// Inisialisasi bot dengan token
+// Initialize bot with token
 const bot = new TelegramBot(token, { polling: true });
 
 // Fungsi untuk mencatat aktivitas penggunaan bot di console log
