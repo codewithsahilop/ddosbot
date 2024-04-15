@@ -15,7 +15,7 @@ function logActivity(msg) {
 
   console.log(`Telegram Bot Usage Activities`);
   console.log(`• User ID: ${user.id}`);
-  console.log(`• Username: ${user.username || 'There isn't any'}`);
+  console.log(`• Username: ${user.username || 'NO'}`);
   console.log(`• Chat ID: ${chat.id}`);
   console.log(`• Perintah: ${command}`);
 }
