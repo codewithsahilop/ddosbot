@@ -1,1 +1,1 @@
-# ddosbot
+# Bot
